@@ -83,3 +83,49 @@
     height: 150px;
   }
 }
+
+.mobile-menu {
+  display: none;
+  background: transparent;
+  border: 0;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .header .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .header nav {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    background: #071a2f;
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 999;
+  }
+
+  .header nav.mobile-open {
+    display: flex;
+  }
+
+  .header .nav-btn {
+    display: none;
+  }
+
+  .brand img {
+    height: 42px;
+  }
+}
