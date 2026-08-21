@@ -55,3 +55,31 @@
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(25, 199, 122, 0.35);
 }
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .card-body {
+    padding: 14px 10px;
+  }
+
+  .card-body h3 {
+    font-size: 16px;
+  }
+
+  .card-body p {
+    font-size: 13px;
+  }
+
+  .card-body ul {
+    padding-left: 16px;
+    font-size: 12px;
+  }
+
+  .product-visual {
+    height: 150px;
+  }
+}
