@@ -23,3 +23,35 @@
 .hero-copy h1 span {
   color: #22a447;
 }
+
+/* ORTHO NIGHT Premium Header */
+.header {
+  background: linear-gradient(135deg, #071a2f, #0b3558, #087f8c);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.header .brand {
+  color: #ffffff;
+}
+
+.header nav a {
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.header nav a:hover {
+  color: #65e6a5;
+}
+
+.header .nav-btn {
+  background: linear-gradient(135deg, #22a447, #19c77a);
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 5px 15px rgba(25, 199, 122, 0.25);
+}
+
+.header .nav-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(25, 199, 122, 0.35);
+}
