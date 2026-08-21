@@ -17,3 +17,7 @@ function sendEnquiry(event) {
   const text = `Hello ORTHO NIGHT,%0A%0AName: ${encodeURIComponent(name)}%0AMobile: ${encodeURIComponent(phone)}%0AInterested in: ${encodeURIComponent(model)}%0AMessage: ${encodeURIComponent(message)}`;
   window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, "_blank");
 }
+
+function toggleMenu() {
+  document.querySelector(".header nav").classList.toggle("mobile-open");
+}
