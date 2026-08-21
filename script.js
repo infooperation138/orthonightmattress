@@ -1,6 +1,6 @@
 // Add your business WhatsApp number below, including country code without +.
 // Example: const WHATSAPP_NUMBER = "919876543210";
-const WHATSAPP_NUMBER = "";
+const WHATSAPP_NUMBER = "917303420392";
 
 function sendEnquiry(event) {
   event.preventDefault();
